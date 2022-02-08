@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f800a5c9b320647bf96c65a309e407, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  gameFieldX: 40
+  gameFieldY: 40
+  startGasCount: 150
+  startMineralsCount: 150
+  startGasLimit: 150
+  startMineralsLimit: 150
+  farmData:
+  - dataId: building_gas_farm_1
+    resourceForBuilding: 2
+    buildingPrice: 125
+    buildingTimeInSeconds: 120
+    resourceType: 1
+    producedResourceAmount: 10
+    productionTimeInSeconds: 10
+    buildingMiningColor: {r: 0.028746877, g: 0.3207547, b: 0.050250296, a: 0}
+    buildingCollectColor: {r: 0.023534894, g: 1, b: 0, a: 0}
+  - dataId: building_minerals_farm_1
+    resourceForBuilding: 1
+    buildingPrice: 100
+    buildingTimeInSeconds: 60
+    resourceType: 2
+    producedResourceAmount: 20
+    productionTimeInSeconds: 30
+    buildingMiningColor: {r: 0.011124954, g: 0.03637953, b: 0.4716981, a: 0}
+    buildingCollectColor: {r: 0.0036325455, g: 0, b: 1, a: 0}
+  storageData:
+  - dataId: building_gas_storage_1
+    resourceForBuilding: 2
+    buildingPrice: 150
+    buildingTimeInSeconds: 180
+    resourceType: 1
+    limit: 300
+    buildingColor: {r: 0.9339623, g: 0, b: 0, a: 0}
+  - dataId: building_minerals_storage_1
+    resourceForBuilding: 1
+    buildingPrice: 150
+    buildingTimeInSeconds: 120
+    resourceType: 2
+    limit: 200
+    buildingColor: {r: 0.8679245, g: 0.78514445, b: 0.028657902, a: 0}
